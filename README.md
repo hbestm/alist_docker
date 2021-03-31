@@ -29,3 +29,9 @@
 
 --------------------------------------------------------------------------------------------------
 7.大功告成
+
+
+特别提醒：
+本项目源自1. https://github.com/Xhofe/alist
+         2. https://github.com/Xhofe/alist-web
+         3. https://github.com/malaohu/alist-oneclick-deploy
