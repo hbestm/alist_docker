@@ -1,0 +1,29 @@
+info:
+  title: 我的云盘 #标题
+  logo: "" #网站logo 如果填写,则会替换掉默认的
+  footer_text: Xhofe's Blog #网页底部文字
+  footer_url: https://www.nn.ci #网页底部文字链接
+  music_img: https://img.xhofe.top/2020/12/19/0f8b57866bdb5.gif #预览音乐文件时的图片
+  check_update: true #前端是否显示更新
+  script: #自定义脚本,可以是脚本的链接，也可以直接是脚本内容
+  autoplay: true #视频是否自动播放
+  preview:
+    text: [txt,htm,html,xml,java,properties,sql,js,md,json,conf,ini,vue,php,py,bat,gitignore,yml,go,sh,c,cpp,h,hpp] #要预览的文本文件的后缀，可以自行添加
+server:
+  port: "5244"
+  search: true
+  static: dist
+  site_url: '*'
+  password: password #用于重建目录
+ali_drive:
+  api_url: https://api.aliyundrive.com/v2
+  max_files_count: 3000
+  drives:
+  - refresh_token: [refresh_token] 
+    root_folder: [root]
+    name: drive1
+    password: pass
+    hide: false
+database:
+  type: sqlite3
+  dBFile: alist.db
