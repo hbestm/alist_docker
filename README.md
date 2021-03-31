@@ -23,9 +23,9 @@
 --------------------------------------------------------------------------------------------------
 4.运行容器：
 
-命令：docker run -d --name 容器名字 镜像名字 -p主机端口:容器端口 refresh_token 默认目录
+命令：docker run -d -p主机端口:容器端口  --name 容器名字 镜像名字 refresh_token 默认目录
 
-例子：docker run -d --name alist alist -p5244:5244 82a5c243xxxxxxcdbbeb8e79e8cb95b70 root
+例子：docker run -d -p5244:5244 --name alist alist  82a5cxxxxxxxdbbeb8e79e8cb95b70 root
 
 --------------------------------------------------------------------------------------------------
 5.打开浏览器，输入IP：5244
