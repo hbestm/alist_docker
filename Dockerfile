@@ -19,9 +19,6 @@ RUN cp linux_${CPU}/alist alist
 RUN wget https://github.com/Xhofe/alist-web/releases/download/v${QVERSION}/refs.tags.v${QVERSION}.tar.gz
 RUN tar -zvxf refs.tags.v${QVERSION}.tar.gz
 
-#复制前端文件
-#COPY dist dist
-
 #复制配置文件
 COPY conf_tmp.yml conf.yml
 COPY entrypoint.sh entrypoint.sh
